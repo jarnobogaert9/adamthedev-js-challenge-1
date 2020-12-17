@@ -66,14 +66,15 @@ function App() {
     }
   }
 
+  const executeAll = async () => {
+    const raw = await fetchRawData();
+    const transformed = transformData(raw);
+    setTransformedData(transformed);
+  }
+
   useEffect(() => {
-    // IEFE
-    (async () => {
-      const raw = await fetchRawData();
-      const transformed = transformData(raw);
-      setTransformedData(transformed);
-    })();
-  }, [])
+    executeAll();
+  })
 
   return (
     <>
