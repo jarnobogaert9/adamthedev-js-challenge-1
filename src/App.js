@@ -29,6 +29,8 @@ function App() {
 
     for (const letter in obj) {
       const namesByLetter = data.filter(person => person.first_name[0].toLowerCase() === letter);
+      // Delete gender
+      namesByLetter.forEach(person => delete person.gender)
       obj[letter] = namesByLetter;
     }
     // console.log(obj);
