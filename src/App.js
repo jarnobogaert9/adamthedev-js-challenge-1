@@ -80,7 +80,7 @@ function App() {
     <>
       <div className="container">
         <h1>Adamthedev JS Challenge #1</h1>
-        <span>GitHub repo: <a target="_blank" href="https://github.com/jarnobogaert9/adamthedev-js-challenge-1">https://github.com/jarnobogaert9/adamthedev-js-challenge-1</a></span>
+        <span>GitHub repo: <a target="_blank" rel="noreferrer" href="https://github.com/jarnobogaert9/adamthedev-js-challenge-1">https://github.com/jarnobogaert9/adamthedev-js-challenge-1</a></span>
         {transformedData && <JSONPretty id="json-pretty" data={transformedData} theme={JSONPrettyMon}></JSONPretty>}
       </div>
     </>
