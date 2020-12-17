@@ -1,3 +1,9 @@
+# Adamthedev JavaScript Challenge #1
+
+[Assignment](https://www.instagram.com/p/CI5l-3oAJYe/)
+
+[My solution](https://jarnocodes-adamthedev-js-challenge-1.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
